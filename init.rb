@@ -13,4 +13,6 @@ Redmine::Plugin.register :redmine_omniauth_cas_ucloud do
   url 'https://github.com/mingming-cn'
   version '3.3.0'
   requires_redmine :version_or_higher => '2.0.0'
+  settings :default => { 'onthefly_register' => 'false' },
+           :partial => 'settings/omniauth_cas_ucloud_settings'
 end
