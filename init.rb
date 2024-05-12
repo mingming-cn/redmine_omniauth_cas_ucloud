@@ -7,7 +7,7 @@ require_relative 'lib/redmine_omniauth_cas_ucloud/hooks'
 # Plugin generic informations
 Redmine::Plugin.register :redmine_omniauth_cas_ucloud do
   name 'Redmine Omniauth plugin for UCloud'
-  description 'This plugin adds Omniauth support to Redmine'
+  description 'This plugin provides additional functionality for the redmine_omniauth_cas plugin, supporting the capability for automated user registration within the UCloud company environment.'
   author 'mingming.wang'
   author_url 'mailto:contact@mingming.wang'
   url 'https://github.com/mingming-cn/redmine_omniauth_cas_ucloud'
