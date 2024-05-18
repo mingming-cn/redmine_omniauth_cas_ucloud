@@ -9,7 +9,7 @@ Redmine::Plugin.register :redmine_omniauth_cas_ucloud do
   name 'Redmine Omniauth plugin for UCloud'
   description 'This plugin provides additional functionality for the redmine_omniauth_cas plugin, supporting the capability for automated user registration within the UCloud company environment.'
   author 'mingming.wang'
-  author_url 'mailto:contact@mingming.wang'
+  author_url 'https://mingming.wang'
   url 'https://github.com/mingming-cn/redmine_omniauth_cas_ucloud'
   version '3.3.0'
   requires_redmine :version_or_higher => '2.0.0'
